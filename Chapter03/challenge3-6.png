@@ -1,0 +1,7 @@
+age = 5 
+if age < 6:
+    print("5ha6yoritiisai")
+
+else:
+    print("wakaranai")
+
