@@ -1,0 +1,21 @@
+def one(x):
+    """
+    関数名: one
+    引数: x データ型: int
+    戻り値: xを2で割った商
+    """
+    return x // 2
+
+def two(y):
+    """
+    関数名: two
+    引数: y データ型: int
+    戻り値: yを4でかけた値
+　　"""
+    return y * 4
+
+three = 5
+four = one(three)
+five = two(four)
+print(five)
+

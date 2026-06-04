@@ -1,0 +1,14 @@
+def num(x):
+    """
+    関数名: num
+    引数: x データ型: int
+    戻り値: xを小数に変換した値
+    """
+    try:
+        return float(x)
+    except ValueError:
+        return "false"
+ 
+a = num("難しい")
+print(a)
+

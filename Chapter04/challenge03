@@ -1,0 +1,14 @@
+def difficult(a, b, c, d=4, e=5):
+    """
+    関数名: difficult
+    引数: a, b, c, d=4, e=5 データ型: int
+    戻り値: 引数に代入した値
+　　"""
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+    print(e)
+
+difficult(1, 2, 3)
+
